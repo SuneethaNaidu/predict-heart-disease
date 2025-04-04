@@ -1,7 +1,7 @@
 import streamlit as st
 import joblib
 st.title('HEART DISEASE PREDICTION')
-model= joblib.load('C:/chinnu/Heart_Disease_Prediction.joblib')
+model= joblib.load('Heart_Disease_Prediction.joblib')
 Age= st.number_input('Enter age')
 Sex= st.number_input('Enter gender (M:1,FM:0)')
 chest_paintype= st.number_input('Enter in digits')
